@@ -160,7 +160,7 @@ class bombvc3: UIViewController {
         enter.text = ""
         generate = Int(arc4random_uniform(1000))
         number1.text = "1"
-        number2.text = "10"
+        number2.text = "1000"
         answer.text  = "未爆炸"
         bomb.image = #imageLiteral(resourceName: "boom.png")
         self.playSound1()
