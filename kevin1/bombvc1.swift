@@ -8,11 +8,21 @@
 
 import UIKit
 import AVFoundation
+
 class bombvc1: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        do{
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            do{
+                try AVAudioSession.sharedInstance().setActive(true)
+            }catch{
+                
+            }
+        }catch{
+            
+        }
         // Do any additional setup after loading the view.
                 self.playSound1()
         generate=Int(arc4random_uniform(10))
@@ -23,7 +33,8 @@ class bombvc1: UIViewController {
     @IBOutlet weak var number2: UILabel!
     @IBOutlet weak var enter: UITextField!
     @IBOutlet weak var answer: UILabel!
-    
+    let synth = AVSpeechSynthesizer()
+    var myUtterance = AVSpeechUtterance(string: "")
     var player: AVAudioPlayer?
     var  generate=0
     func playSound() {
@@ -71,6 +82,7 @@ class bombvc1: UIViewController {
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLoad()
+        
 ////        self.playSound1()
 //        generate=Int(arc4random_uniform(10))
         
@@ -99,14 +111,31 @@ class bombvc1: UIViewController {
         
         var intNum1=Int(number1.text!)!
         var intNum2=Int(number2.text!)!
+       
         
         if test >= intNum1 && test <= intNum2{
             if test>secrect{
                 number2.text = String(test)
                 enter.text = ""
+                let okspeak = number1.text!+"到"+number2.text!
+                myUtterance = AVSpeechUtterance(string:okspeak)
+                myUtterance.rate = 0.4
+                myUtterance.pitchMultiplier = 1.2
+                myUtterance.postUtteranceDelay = 0.1
+                myUtterance.volume = 1
+                myUtterance.voice = AVSpeechSynthesisVoice(language: "zh-TW")
+                synth.speak(myUtterance)
             }else if test<secrect{
                 number1.text = String(test)
                 enter.text = ""
+                let okspeak = number1.text!+"到"+number2.text!
+                myUtterance = AVSpeechUtterance(string:okspeak)
+                myUtterance.rate = 0.4
+                myUtterance.pitchMultiplier = 1.2
+                myUtterance.postUtteranceDelay = 0.1
+                myUtterance.volume = 1
+                myUtterance.voice = AVSpeechSynthesisVoice(language: "zh-TW")
+                synth.speak(myUtterance)
             }else{
                 enter.isEnabled=false
                 self.stop()
@@ -114,12 +143,21 @@ class bombvc1: UIViewController {
                 enter.text = ""
                 bomb.image = #imageLiteral(resourceName: "boom2.png")
                 self.playSound()
+                let boomspeak = "糟糕了爆炸了"
+                myUtterance = AVSpeechUtterance(string:boomspeak)
+                myUtterance.rate = 0.4
+                myUtterance.pitchMultiplier = 1.2
+                myUtterance.postUtteranceDelay = 0.1
+                myUtterance.volume = 1
+                myUtterance.voice = AVSpeechSynthesisVoice(language: "zh-TW")
+                synth.speak(myUtterance)
             }
             enter.resignFirstResponder()
             
         }
     }
     @IBAction func restart(_ sender: UIButton) {
+        enter.isEnabled=true
         enter.text = ""
         generate = Int(arc4random_uniform(10))
         number1.text = "1"
@@ -127,6 +165,7 @@ class bombvc1: UIViewController {
         answer.text  = "未爆炸"
         bomb.image = #imageLiteral(resourceName: "boom.png")
         self.playSound1()
+        
     }
     
     
