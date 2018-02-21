@@ -1,0 +1,111 @@
+
+/* Class = "UILabel"; text = "終極密碼三重奏"; ObjectID = "0VM-er-9k2"; */
+"0VM-er-9k2.text" = "終極密碼三重奏";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "2AZ-RO-NYr"; */
+"2AZ-RO-NYr.text" = "1";
+
+/* Class = "UILabel"; text = "初階 1~10 "; ObjectID = "4du-aK-ZdF"; */
+"4du-aK-ZdF.text" = "初階 1~10 ";
+
+/* Class = "UIButton"; normalTitle = "確定"; ObjectID = "7Qc-A9-zsV"; */
+"7Qc-A9-zsV.normalTitle" = "確定";
+
+/* Class = "UILabel"; text = "終極密碼中階"; ObjectID = "8gQ-8A-BJS"; */
+"8gQ-8A-BJS.text" = "終極密碼中階";
+
+/* Class = "UILabel"; text = "未爆炸"; ObjectID = "9VW-G8-mda"; */
+"9VW-G8-mda.text" = "未爆炸";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "Brg-Kn-6C0"; */
+"Brg-Kn-6C0.text" = "10";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "CkF-Um-7si"; */
+"CkF-Um-7si.text" = "1";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "Lrf-gi-RhA"; */
+"Lrf-gi-RhA.text" = "1";
+
+/* Class = "UILabel"; text = "輸入1~100"; ObjectID = "NnX-mT-RB0"; */
+"NnX-mT-RB0.text" = "輸入1~100";
+
+/* Class = "UIButton"; normalTitle = "登入"; ObjectID = "Oie-wg-iWD"; */
+"Oie-wg-iWD.normalTitle" = "登入";
+
+/* Class = "UILabel"; text = "~"; ObjectID = "Ots-Fh-fnN"; */
+"Ots-Fh-fnN.text" = "~";
+
+/* Class = "UILabel"; text = "終極密碼初階"; ObjectID = "Qxn-Z2-7MU"; */
+"Qxn-Z2-7MU.text" = "終極密碼初階";
+
+/* Class = "UILabel"; text = "輸入1~10"; ObjectID = "V36-xF-g6t"; */
+"V36-xF-g6t.text" = "輸入1~10";
+
+/* Class = "UILabel"; text = "高階 1~1000"; ObjectID = "WVh-YK-g6y"; */
+"WVh-YK-g6y.text" = "高階 1~1000";
+
+/* Class = "UIButton"; normalTitle = "重新開始"; ObjectID = "WZd-s8-gmC"; */
+"WZd-s8-gmC.normalTitle" = "重新開始";
+
+/* Class = "UIButton"; normalTitle = "確定"; ObjectID = "bqT-sd-8NL"; */
+"bqT-sd-8NL.normalTitle" = "確定";
+
+/* Class = "UILabel"; text = "說明："; ObjectID = "cuF-OX-N7T"; */
+"cuF-OX-N7T.text" = "說明：";
+
+/* Class = "UIButton"; normalTitle = "重新開始"; ObjectID = "dVx-ek-rRV"; */
+"dVx-ek-rRV.normalTitle" = "重新開始";
+
+/* Class = "UIButton"; normalTitle = "重新開始"; ObjectID = "e9t-Py-SdE"; */
+"e9t-Py-SdE.normalTitle" = "重新開始";
+
+/* Class = "UIButton"; normalTitle = "<back"; ObjectID = "eac-Yw-m3C"; */
+"eac-Yw-m3C.normalTitle" = "<back";
+
+/* Class = "UIButton"; normalTitle = " 初階"; ObjectID = "fhh-8v-sam"; */
+"fhh-8v-sam.normalTitle" = " 初階";
+
+/* Class = "UIButton"; normalTitle = "高階"; ObjectID = "hYA-eR-2w9"; */
+"hYA-eR-2w9.normalTitle" = "高階";
+
+/* Class = "UILabel"; text = "中階 1~100"; ObjectID = "jVR-wv-PDQ"; */
+"jVR-wv-PDQ.text" = "中階 1~100";
+
+/* Class = "UIButton"; normalTitle = "<back"; ObjectID = "jl4-4R-nQ6"; */
+"jl4-4R-nQ6.normalTitle" = "<back";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "lDs-c4-rmQ"; */
+"lDs-c4-rmQ.text" = "100";
+
+/* Class = "UILabel"; text = "未爆炸"; ObjectID = "oM5-n1-bFE"; */
+"oM5-n1-bFE.text" = "未爆炸";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "phL-lJ-LIb"; */
+"phL-lJ-LIb.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "輸入1~1000"; ObjectID = "sd5-Oc-erX"; */
+"sd5-Oc-erX.text" = "輸入1~1000";
+
+/* Class = "UIButton"; normalTitle = "確定"; ObjectID = "t2Y-wJ-fEz"; */
+"t2Y-wJ-fEz.normalTitle" = "確定";
+
+/* Class = "UILabel"; text = "~"; ObjectID = "wBh-Xm-Dcw"; */
+"wBh-Xm-Dcw.text" = "~";
+
+/* Class = "UILabel"; text = "~"; ObjectID = "wkZ-7u-zYE"; */
+"wkZ-7u-zYE.text" = "~";
+
+/* Class = "UIButton"; normalTitle = "<back"; ObjectID = "xAz-xk-5SP"; */
+"xAz-xk-5SP.normalTitle" = "<back";
+
+/* Class = "UIButton"; normalTitle = "中階"; ObjectID = "y7C-1Y-PPq"; */
+"y7C-1Y-PPq.normalTitle" = "中階";
+
+/* Class = "UILabel"; text = "1000"; ObjectID = "yr4-fB-nyI"; */
+"yr4-fB-nyI.text" = "1000";
+
+/* Class = "UILabel"; text = "終極密碼高階"; ObjectID = "z6A-tm-Hyd"; */
+"z6A-tm-Hyd.text" = "終極密碼高階";
+
+/* Class = "UILabel"; text = "未爆炸"; ObjectID = "zyK-qK-C1W"; */
+"zyK-qK-C1W.text" = "未爆炸";
